@@ -1,5 +1,13 @@
 # Claude Screen Control — GNOME Shell extension
 
+> **Repo:** `github.com/pippsza/claude-screen-gnome` ·
+> **Companion to** [tg-claude-bot](https://github.com/pippsza/tg-claude-bot) (its `SCREEN_CONTROL` feature).
+>
+> **Platform: Linux + GNOME Shell 48–49 only.** It's a GNOME extension, so it
+> does not run on macOS/Windows — there the bot's Screen feature is simply
+> hidden. Built for Wayland (where `grim`/`ydotool`/Screenshot-D-Bus are
+> blocked); also loads under GNOME on X11.
+
 A tiny **local bridge** so the [tg-claude-bot](https://github.com/pippsza/tg-claude-bot)
 WebApp can view the screen and click on it from a phone — on **Wayland**, where
 external tools (`grim`, `ydotool`) and the `Shell.Screenshot` D-Bus are blocked.
