@@ -1,0 +1,8 @@
+{
+  "uuid": "claude-screen@pippsza",
+  "name": "Claude Screen Control",
+  "description": "Local unix-socket bridge so the tg-claude-bot WebApp can capture the screen and inject clicks (via Clutter) on Wayland, where external tools are blocked. Owner-only: the socket lives 0600 in $XDG_RUNTIME_DIR. Pairs with SCREEN_CONTROL in the bot.",
+  "shell-version": ["48", "49"],
+  "url": "https://github.com/pippsza/claude-screen-gnome",
+  "version": 1
+}
